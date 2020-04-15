@@ -1,6 +1,8 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -52,7 +54,7 @@ img {
 .introduction h1 {
   font-size: 3em;
   text-transform: uppercase;
-  margin-top: 10  0px;
+  margin-top: 100px;
 }
 
 .introduction .container {
@@ -73,12 +75,55 @@ img {
 .button {
   display: block;
   width: 140px;
-  margin: 0 auto 64px auto;
+  margin: 40px auto 64px auto;
   color: #FFFFFF;
   text-align: center;
   background: #BF0E18;
   border-radius: 4px;
   border: none;
   padding: 12px 0 12px 0;
-  margin-top: 40px;
+}
+
+/* About */
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+}
+
+.about div img {
+  width: 340px;
+}
+
+.storie {
+  width: 540px;
+}
+
+.subtitle {
+  font-size: 1.5em;
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #BF0E18 ;
+  margin: 14px 0 10px 0;
+}
+
+.storie h3 {
+  font-weight: bold;
+  font-size: 1.125em;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+
+.storie p {
+  font-size: 1.125em;
+}
+
+.storie .button {
+  margin-left: 0;
+  margin-top: 45px;
 }
